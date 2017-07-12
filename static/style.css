@@ -1,0 +1,125 @@
+@charset "utf-8";
+/*CSS reset*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,a,img,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0; color:#929292; line-height:22px}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}input,textarea,select{*font-size:100%;}legend{color:#000;}input:focus{ outline:none;}
+body{ font:12px/1.5 Arial, Helvetica, sans-serif; background:#000; }
+a{ font-family:Arial; text-decoration:none;color:#999999;}
+strong{font-weight:bold}
+
+#menu{height:102px; text-align:center; background-color:#000; border-bottom:2px solid #161616; width:100%;}
+#menu .lang_tab{right:0;}
+.inside_logo{background:url(images/inside_logo.gif) no-repeat; width:269px; height:102px; display:block; float:left;}
+#nav{width:661px;float:left; height:102px; margin:auto;background:url(images/menu.gif) center no-repeat;}
+#nav a{display:block; float:left; height:102px; width:131px; margin-left:1px;}
+#nav a:hover,#nav a.active{background:url(images/menu_hover.png) no-repeat 0 55px;}
+	
+#index_banner{ height:648px; background:url(images/index_banner.jpg) center no-repeat}
+#foot{ clear:both;height:60px; text-align:center; padding-top:15px; border-top:3px solid #171717; color:#929292; font-family:SimSun; }
+
+#certificate{height:617px; width:100%; background:url(images/certificate.jpg) center no-repeat #fff;}
+#certificate .send_letter{ margin-left:275px;padding-top:308px;}
+#certificate input{	margin:0 14px 0 8px;width:190px; padding:5px 0; height:28px; font-size:14px; line-height:28px; background:none; border:none; outline:none; color:#333;}
+.cert_inputbg{background:url(images/certificate_input.gif) no-repeat; width:284px; height:38px; display:block; margin-bottom:42px;}
+#submitBtn{width:70px; height:38px; display:inline-block; vertical-align:middle;}
+#contact{ padding-bottom:30px; }
+#contact_content{width:990px; margin:0 auto;background:url(images/contact_bg.jpg) left  top no-repeat;}
+
+#contact_content input{border:1px #dcdcdc solid; padding:0 5px; height:24px; width:300px;}
+#contact_content textarea{border:1px #dcdcdc solid; padding:5px; width:300px; height:150px; vertical-align:top;}
+#contact_content button{width:90px; height:26px; background-color:#353535; color:#bebebe; cursor:pointer; border-color:#353535; display:none}
+
+
+#company{width:990px; margin:0 auto; text-align:center}
+#products{width:990px; margin:0 auto; background:#fff;}
+#products_left{width:270px; float:left; margin-bottom:50px;}
+#products_link li{display:block;}
+#products_link{border:#212121 3px solid; padding:10px}
+.products_left_pic{width:70px; height:70px; float:left; padding-bottom:10px}
+.products_left_text{width:164px;float:left; padding-left:10px; line-height:16px; padding-bottom:10px}
+#products_link hr{clear:both}
+		
+#products_right{width:708px; float:right; margin-bottom:50px; border:#e9e9e9 1px solid; text-align:center}
+#products_right ul{display:block;width:657px; margin:30px auto 50px auto;}
+#products_right .pro250{display:block;width:257px; height:257px; float:left }
+#products_right .info{ display:block;float:right; width:390px; text-align:left}
+#products_right .title_jp{font-size:17px; font-weight:bold; color:#636363;}
+#products_right .title_en{font-size:12px; line-height:20px}
+#products_right .capacity{}
+#products_right .price{}
+#products_right .feature img{ margin:0px 2px 5px 2px;}
+#products_right hr{margin:20px 0px;}
+
+
+#introduction{width:650px; margin:auto}
+#introduction_content{
+	border-left:1px #d2d2d2 solid; 
+	border-right:1px #d2d2d2 solid; 
+	border-bottom:1px #d2d2d2 solid;
+	text-align:left;
+	padding-bottom:20px;
+	margin-bottom:50px
+	}
+	
+	#introduction_content p{ padding:10px 20px 0px 20px; text-indent:2em }
+	#introduction_content span{ background-color:#666666; color:#FFF}
+	.introduction_banner{margin-bottom:50px}
+
+#attention{text-align:left}
+#attention li{list-style-type:disc; margin:0px 20px 10px 20px; border-bottom:1px #d2d2d2 dotted; padding-bottom:10px}
+
+		
+#top{width:990px; margin:auto}
+
+/*  0619 addclass */
+.clearfix:after{ content:"."; display:block; height:0; clear:both; visibility:hidden;}
+.clearfix{ display:inline-block;}*html.clearfix{ height:1%}.clearfix{ display:block;}
+.ml16{margin-left:16px;}
+.pr{position:relative;}
+.index_subnav{height:40px; width:100%; position:relative;}
+.index_subnav h3{padding-left:268px; line-height:40px;}
+.lang_tab{position:absolute; right:14px; top:50%; margin-top:-9px; height:18px; font-size:13px; color:#666; font-family:Microsoft YaHei; }
+.lang_tab a{color:#666; margin:0 6px; line-height:18px;}
+.lang_tab a:hover{color:#888585; text-decoration:none;}
+#wrap{width:990px; margin:0 auto;}
+#index_menu{position:absolute; left:0; top:-40px; background:#181919; width:250px;z-index:5; _height:880px;}
+#index_nav{padding:2px; width:246px; background:url(images/index_nav.gif) no-repeat; height:440px;}
+#index_nav a{ display:block; margin-top:2px; border:7px solid #181919; width:232px; height:66px;}
+#index_nav a:hover,#index_nav a.active{border:7px solid #e0d0a6;}
+
+#index_foot{width:100%; height:166px;}
+.copyright{text-align:center;  width:245px; color:#929292; font-family:SimSun; position:absolute; top:100px; left:15px;z-index:10;}
+.foot_pic{ margin-left:253px; width:735px; overflow:hidden; padding-top:12px; height:154px;}
+.foot_btn{ display:inline-block; width:226px; height:140px; background:url(images/foot_a.gif) top center; vertical-align:top;}
+#content{background:#fff; padding:45px 0;}
+
+.pro_listbg{background:url(images/pro_listbg.gif) repeat-x top left; height:400px; margin-top:40px;}
+#goods_tab{margin:0 auto; width:916px; height:400px; position:relative; z-index:10;}
+.products_show{width:916px; height:400px; background:url(images/goods_bg.gif) repeat-x left top ;overflow:hidden;position:relative; } 
+.products_list{height:340px; position:absolute; top:0; overflow:hidden;}
+.products_list li{float:left; display:inline; margin-left:1px; width:227px; height:340px; position:relative;}
+.products_list li .goods_pic{ display:block; width:227px; height:264px; overflow:hidden;}
+.products_list li .goods_intro{text-align:center; line-height:22px; color:#636363;}
+.products_list li .goods_intro h3{color:#999; font-family:;}
+.black_bg{ height:215px; width:100%; background:#202325; background-position:center; min-width:990px; position:absolute; bottom:-0; left:0; z-index:1; _bottom:-246px;}
+a.prev,a.next{position:absolute; top:90px; text-align:center; text-decoration:none; background:#f60; width:38px; height:38px;}
+a.prev{left:-38px; background:url(images/arror_btn.gif) no-repeat 0 -1px;}
+a.next{right:-35px; background:url(images/arror_btn.gif) no-repeat -39px 0;}
+a.prev:hover{ background-position: -1px -39px;}
+a.next:hover{ background-position: -39px -39px;}
+		
+.tab { margin-left:532px; width:456px;}
+.tab h3{margin:10px 0 20px;}
+.tab ul { background:url(images/tab_normal.gif) no-repeat; width:196px; height:24px; margin-top:16px; overflow:hidden;}
+.tab li{float:left; display:inline; width:98px;}
+.tab li a {display: block; float:left; height: 24px; width: 96px; outline:none;}
+.tab_li1 a.current{ background:url(images/tab_normal.gif) no-repeat; background-position:0 -24px;}
+.tab_li2 a.current{ background:url(images/tab_normal.gif) no-repeat; background-position:-98px -24px;}
+.tab .tab_list {}
+.tab .tab_list .tab_con{width:456px;}
+.tab_con form {margin-top:20px;}
+.tab_con form p{margin-top:10px;}
+.tab_con form label{display:inline-block; width:104px; text-align:left;}
+.tab_con form button{padding: 0px; border: 0; margin-left:105px; width: 92px; height:26px; background:static/images/btn_certificate.gif}
+		
+		
+		

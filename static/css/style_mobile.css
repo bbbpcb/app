@@ -1,0 +1,15 @@
+﻿@charset "utf-8";
+/*微软雅黑：\5FAE\8F6F\96C5\9ED1 */
+/*黑体：\9ED1\4F53 */
+/*宋体：\5B8B\4F53 */
+
+/* 滚动条 */
+.detail_intro{width:520px; height:172px; padding:0 30px; position:relative; margin-top:10px; overflow-y:auto; overflow-x:hidden;}
+.scroll_bg{ display:none;}
+<!--.scroll_bg .scroll_tiao{display:none;}-->
+
+.brand_box{overflow-y:auto; overflow-x:hidden; width:480px; position:relative; height:334px; padding-top:8px; margin-top:6px; }
+
+.stores{padding:50px 127px 0 131px; width:952px; position:relative; height:456px; font-family:Arial, Helvetica, sans-serif;}
+.stores_box{overflow-y:auto; overflow-x:hidden; width:940px; position:relative; height:352px; padding-top:10px;}
+

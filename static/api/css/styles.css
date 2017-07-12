@@ -1,0 +1,314 @@
+@charset "utf-8";
+.cb1{background:#f6aa03}
+.cb2{background:#00a0e9}
+.cb3{background:#eb6100}
+.cb4{background:#7ecef4}
+.c1{color:#00a0e9}
+.c2{color:#ffb934}
+.c3{color:#fc0000 !important}
+.bg5{background:#ff940a}
+.bg6{background:#ffb633}
+.bg7{background:#43bdee}
+.bg8{background:#00a9ec}
+.bg9{background:#69d4ff}
+.C{clear:both !important}
+.R{float:right !important}
+.LE{float:left !important}
+.abs{position:absolute !important}
+.aui-bar{margin-bottom: 15px;}
+#aui-header{position: fixed;top: 0;left: 0;z-index: 99;}
+#wrap{margin-top: 2.25rem;}
+#search{width: 70%; background: none; position: absolute; left: 15%;}
+.index-user{}
+.index-user .aui-list-item-title{color:#465681; height:30px; padding-left:10px;}
+.index-user .aui-list-item-title a{color:#465681; font-size:15px} .index-user .aui-list-item-title .aui-pull-right:after{content:"";background:url(../images/right.png) no-repeat;width:13px;height:16px;float: left;margin: 2px 5px 0 0;}
+.index-user .aui-list-item-title:after{border-left:3px solid #465681; position:absolute; left:0; top:2px; height:20px; content:""}
+.index-user .aui-row-padded .ubox{margin:5px 1%;background: #fff;box-shadow: 2px 1px 1px 0px #d6d2d2;padding: 0.3rem;}
+.index-user .aui-row-padded .aui-col-xs-4{width:31.333%}
+.index-user .aui-row-padded .last{margin-right:0}
+.index-user .aui-row-padded .ubox img{border-radius:50%; margin:10px 0}
+.index-user .name{font-size: 12px; float: left; color:#474960}
+.index-user .inte{font-size: 12px; float: right; color:#00a4ff}
+.L{float:left; height:5px; width:100%}
+#wrap{margin-bottom:55px;}
+.aui-bar-tab .aui-active{background:#fff;}
+.aui-bar-tab .aui-active a{color:#465681}
+.aui-bar-tab a{color:#fff}
+.project{border: 0;background: #f5f5f5;}
+.project .aui-media-list-item-inner{position:relative}
+.conquer .r-img, .project .r-img{position: absolute; right: 0; top: 0; width: 3rem;}
+.project .aui-list-item{margin:5px 0.75rem;padding-left:0;border: 0;}
+.project .aui-media-list-item-inner{box-shadow: 1px 3px 4px 0px #bbb;margin: 10px 0;padding: 0.55rem;background: #fff;}
+.project .aui-media-list-item-inner .name{}
+.project .aui-media-list-item-inner .name img{float: left; width: 30%; margin: 2px 2px 0 0;}
+.user{color:#465681}
+.user .aui-grid-label{font-size:0.8rem}
+.user-info .aui-row{padding:0.75rem}
+.user-info .aui-row .aui-col-xs-6{margin:2% 2% 2% 0; width:48%; border-radius: 10px; box-shadow: 3px 2px 2px 0px #a9a9a9;}
+.user-info .aui-row .aui-col-xs-6 a{color:#fff;}
+.user-info .aui-row .aui-col-xs-6 a .aui-grid-label{color: #fff; font-size: 0.8rem; margin: -0.7rem 0 0 00; text-align: left; padding: 0 0 0 0.5rem;}
+.user-info .aui-row .aui-col-xs-6 a .aui-iconfont{font-size: 2.3rem;font-weight:bold;line-height: 2.9rem;}
+.user-info .aui-row .mr0{margin:2% 0}
+.top-plus{background: none; color: #fff; top: -10px;}
+#mem_list{display:none}
+#mem_list li{padding:0.5rem}
+#mem_list img{float: left;}
+#mem_list span{float: left; width: 100%; margin: 0.2rem 0 0 0.5rem;}
+#mem_list .aui-list-item-right{text-align:right; max-width:70%}
+.an{background:#465681; color:#fff}
+.send{float: left;width: 100%;margin-bottom: 55px;background: #333;position: fixed;z-index: 999;bottom: -55px;right: 0;padding: 0.8rem; color:#fff}
+.send #msg{width: 70%; float: left; border: 1px solid #fff; border-radius: 10px; background: #fff; padding: 0.3rem;}
+.send .msg{width: 70%; float: left; border: 1px solid #fff; border-radius: 10px; background: #fff; padding: 0.3rem;}
+.send .an{width: 25%; float: right; height: 45px; line-height: 45px;}
+#group_list .aui-list-item-inner{width: auto; border-left: 3px solid #465681; margin: 1rem 0; height: 1.5rem; min-height: 1.2rem; padding-left: 0.5rem;}
+#group_list .aui-btn-block{width:80%; margin-left:10%}
+.pro-det{position:relative}
+.pro-det .cont{background: #eee; margin: 0.5rem; box-shadow: 2px 2px 3px 0px #333; font-size: 0.5rem;}
+.pro-det h2{float:left;width:100%;color:#465681;font-size: 0.8rem;}
+.pro-det .little{float:left;width:100%;font-size: 0.6rem;}
+.pro-det .aui-card-list-header{display:block}
+.pro-det .r-img{position: absolute; right: 0; top: 0; width: 3rem; z-index:999}
+.pro_list{}
+.pro_list .aui-row{overflow: visible;}
+.pro_list .aui-card-list{padding: 0.7rem; height: 12rem;}
+.pro_list .aui-card-list .aui-card-list-header{color: #465681;}
+.pro_list .aui-card-list .aui-card-list-header:after{content:"";background: #465681;width: 4px;height: 25px;position: absolute;left: 0;}
+.pro_list .aui-card-list .aui-col-xs-6{float: left; width: 48%; margin-right: 2%; background: #fff; margin-bottom: 20px; box-shadow: 1px 2px 1px 1px #a7a4a4; padding-bottom: 0.8rem; height: 8rem; margin-right: 5px !important;}
+.pro_list .aui-card-list .imgbox{position: relative;}
+.pro_list .aui-card-list .imgbox .txt{position: absolute; background: rgba(0,0,0,.5); width: 100%; bottom: 0; color: #fff; padding: 0.2rem;}
+.pro_list .aui-card-list .imgbox .txt h1{font-size: 0.8rem;}
+.pro_list .aui-card-list .title{font-size: 0.7rem; color: #465681; width: 100%; display: block; line-height: 1.5rem;}
+.pro_list .aui-card-list .name{width: 50%; float: left; font-size: 0.6rem; color: #666;}
+.pro_list .aui-card-list .img{width: 50%; float: right;}
+.pro_list .aui-card-list .img img{float: right; width: 50%; border-radius: 50%; margin-right: 5%;}
+.pro_list .R{color:#2fb3dc; margin-right: -15px;} .swiper-slide:nth-child(2n){width: 60%;} .swiper-slide:nth-child(3n){width: 40%;}
+.mc{background:rgba(0,0,0,.5); z-index:1000; left:0;top:0; width:100%; height:100%; position:fixed; display:none}
+.mc2{background:rgba(0,0,0,.5); z-index:1000; left:0;top:0; width:100%; height:100%; position:fixed; display:none}
+.pro-task{background: #fcfcfc; position:fixed; width: 90%; margin: 5%; top: 55px; z-index: 10001; display:none; border-radius: 10px; padding:0.25rem}
+.pro-task .title{text-align: center; position: relative; font-size: 1rem; line-height: 2.5rem; border-bottom: 1px solid #ccc;}
+.pro-task .cls{position: absolute; right: 20px;}
+.pro-task .cls .aui-icon-close{font-size:1.5rem}
+.pro-task .contents{padding: 0.5rem;}
+.pro-task .contents h2{}
+.pro-task .contents .text{text-align: left; font-size:0.7rem;}
+.pro-task .pin{font-size:0.7rem; line-height:1.2rem}
+.pro-task .choose{border-top: 1px solid #ccc; margin: 10px 0 0 0; padding: 1rem 0; text-align: center;}
+.pro-task .choose label{width: 30%; text-align: center; float: left; margin: 0 0 2rem 0;}
+.pro-task .choose .an{text-align: center; /* display: block; */ width: 30%;}
+.base{padding:0.8rem}
+.base .aui-card-list-header{padding:0}
+.base .aui-card-list-content-padded{border-top: 1px solid #eee; border-bottom: 1px solid #eee; padding: 0.5rem 0; margin: 1rem 0;}
+.base-info{font-size: 0.7rem;}
+.base-info .list{float: left;width: 100%;padding: 0.3rem 0;}
+.base-info .list img{width: 1.5rem; border-radius: 50%; float: left; margin: -0.2rem 0.2rem;}
+.base-info .list .title{float: left;}
+.base-info .list .imb{float: left;}
+.pro-det .aui-chat .send{text-align:center}
+.pro-det .aui-chat .send .an{width: 80%; float: none; margin: 0 auto;}
+.base-info .list .imb .imbt{float:left}
+.set{background: #f4a70d; width: 3.2rem; border-radius: 50%; height: 3.2rem; position: fixed; bottom: 60px; right: 20px; color: #fff; text-align: center; border: 2px solid #fff;}
+.set i{text-align: center; font-size: 1.2rem;}
+.set p{color: #fff; position: absolute; bottom: 5px; left: 0; right: 0; font-size: 0.8rem;}
+.set p span{font-size: 0.8rem;}
+.set-bnt{padding: 1rem 2rem 2rem 2rem;}
+.set-bnt .an{margin: 1rem 0 0 0;}
+/*��ʾ��*/
+.note{background: #fcfcfc; position:fixed; width: 90%; margin: 5%; top: 55px; z-index: 10001; display:none; border-radius: 10px; padding:0.25rem}
+.note .title{text-align: center; position: relative; font-size: 1rem; line-height: 2.5rem; border-bottom: 1px solid #ccc;}
+.note .cls{position: absolute; right: 20px;}
+.note .text{padding: 1rem; line-height: 1.5rem;}
+.note .bn{background: #465681; color: #fff; margin-bottom: 2rem; width: 50%; line-height: 2rem; height: 2rem;}
+.an a{color:#fff;}
+.from-main{padding: 1rem; color: #465681;}
+.from-main .list{margin-bottom: 1rem;}
+.from-main .name{line-height: 1.5rem;}
+.from-main .inp{border: 1px solid #ccc; background: #fff; border-radius: 10px; padding-left: 15px;}
+.from-main .list .choo{width: 100%; float: left; border-radius: 10px; border: 1px solid #ccc; background: #fff; height: 2.2rem; line-height: 2.2rem; text-align: right; padding-right: 1rem; color: #999;}
+.from-main .start{margin: 0.6rem 0; display: block; float: left; width: 100%;}
+.from-main .start .name{float: left; width: 20%;}
+.from-main .start .aui-col-xs-1{width: 15%; margin: 0.25rem 0 0 0;}
+.topnote{color: 00a2ff; width: 100%; padding-left: 0.75rem; line-height: 2rem;}
+.inv{}
+#mem_list .aui-chat .inv .L, .pro-det .aui-chat .inv .L{float:left; width:40%; background: #465681; color: #fff; height:45px; line-height:45px}
+#mem_list .aui-chat .inv .R, .pro-det .aui-chat .inv .R{float:right; width:40%; background: #465681; color: #fff; height:45px; line-height:45px}
+.mod .note1{font-size: 1rem; width: 100%; display: block;}
+.mod .note2{font-size: 0.8rem; color: #e8b655; line-height: 2rem;}
+.mod .aui-list-in{background:none}
+.mod .aui-list-in li{margin: 1rem 0; border: 1px solid #ccc !important; background: #fff; border-radius: 10px;}
+.task_type{float: left; margin: 0 1rem 1rem 1rem; border-bottom: 1px solid #ccc; padding: 0;}
+.task_type .title1{border-left: 3px solid #465681; padding-left: 0.5rem; font-size: 0.9rem; margin: 1rem 0;}
+.addtask{background: #465681; color: #fff; float: left; padding: 0.3rem 1.2rem; border: 0; border-radius: 5px; margin-bottom: 1rem;}
+.dotask{background:#fff}
+.dotask .aui-list-item{}
+.dotask .aui-list-item .aui-list-item-media{line-height: 1.8rem; width: 100%;}
+.dotask .aui-list-item .aui-list-item-media img{float: left; margin-right: 0.5rem;}
+.dotask .pro_list .aui-card-list{padding: 0; height: 8rem;}
+.dotask .aui-list-item-media{width:100%}
+.dotask .aui-list-item-media img{width:10%}
+.dotask .pro_list{border-bottom: 1px solid #ccc; margin-bottom: 5px;}
+.dotask .pro_list .replay{float: right; margin-right: 0.2rem; color: #ffb934;}
+.dotask .pro_list .replay i{margin:0 0.3rem 0 0}
+.imgbox .r-jb{position: absolute; right: 0.2rem; top: 0; background: rgba(0,0,0,.5); color: #fff; z-index: 99;}
+.member_zj .title{color: #465681; font-size: 0.9rem; padding-left: 0.3rem; border-left: 0.2rem solid #465681; line-height: 1rem;}
+.member_zj .aui-row{margin-top: 1rem;}
+.member_zj .aui-row-padded img{border-radius: 50%;}
+.member_zj .aui-row .name{line-height: 3rem;}
+.fzr{float:right}
+.dotask .cont{background:none; margin:0; box-shadow:none}
+.member_zj{padding: 1rem 0.6rem 0 0.6rem; background: #f5f5f5;}
+.dotask-box{}
+.dotask-box .tab{background: #111; float: left; width: 100%; color: #fff; 3: rem}
+.dotask-box .tab li{float: left; text-align: center; width: 33%; line-height: 2.5rem; color:#666}
+.dotask-box .tab-ul{width: 100%; float: left; padding: 0.5rem; font-size: 0.8rem;}
+.dotask-box .tab-ul li{width: 100%; float: left; padding: 1rem 0;}
+.dotask-box .tab-ul .txt{font-size: 0.7rem; border-bottom: 1px solid #ccc; padding: 0 0 0.8rem 0; margin: 0 0 1rem 0;}
+.dotask-box .tab-ul .title{color: #465681; font-size: 0.8rem; padding-left: 0.3rem; border-left: 0.2rem solid #465681; line-height: 1rem; margin-bottom:1rem}
+.dotask-box .tab-ul .lists{float: left; width: 100%; margin: 0 0 1rem 0;}
+.dotask-box .tab-ul .lists .left-name{float: left; width: 15%; text-align: center; font-size: 0.8rem;}
+.dotask-box .tab-ul .lists .left-name img{border-radius: 50%;margin-bottom: 0.2rem;}
+.dotask-box .tab-ul .lists .right-txt{float: left; text-align: left; width: 80%; margin-left: 5%;}
+.act{display:block; position:relative}
+.tab .act:after{content:"";width: 0;height: 0;border-left: 0.6rem solid transparent;border-right: 0.6rem solid transparent;border-top: 0.8rem solid #111;position: absolute;bottom: -0.5rem;left: 44%;}
+.tab-ul .replay{float:right; color:#ffb934}
+.tab-ul .btxt{color: #666; margin-top: -1rem; border-bottom: 1px solid #ccc; padding-bottom: 0.5rem; margin-bottom: 1rem;}
+.tab-ul .btitle{color: #000; margin-top: 0.2rem;}
+.tab-ul .pf{float:left; text-align:left; width:33%;}
+.tab-ul .jifen{float: left; width: 100%; border-top: 1px solid #ccc; margin: 0.5rem 0; padding-top: 0.5rem; text-align: right;}
+.tab-ul .content{border: 1px solid #eee; border-radius: 10px; background: #fff; min-height: 10rem; padding:0.5rem}
+.bg{background:#efefef}
+.conquer{}
+.conquer .aui-list-item-middle{padding: 0.5rem;}
+.conquer .c-box{position: relative; margin: 1rem 0; box-shadow: 2px 2px #ccc;}
+.conquer .c-box .oimg{width: 100%; max-height:7rem}
+.conquer .c-box .text{position: absolute; background: rgba(0,0,0,.5); color: #fff; width: 100%; bottom: 0; left: 0; height: 50%; font-size: 0.7rem; padding: 0.2rem;}
+.conquer .c-box .text .title{width: 50%; float: left;}
+.conquer .c-box .text .title a{color:#fff}
+.conquer .c-box .text .name{}
+.conquer .c-box .text .canyu{float: left; width: 50%; text-align: right;}
+.conquer .c-box .text .fenshu{}
+.conquer-detail{}
+.conquer-detail .de-imgbox{position: relative; margin-top:2rem}
+.conquer-detail .de-imgbox .txt{position: absolute; bottom: 0; left: 0; width: 100%; background: rgba(0,0,0,.5); color: #fff; font-size: 0.7rem; padding: 0.2rem;}
+.conquer-detail .height{height: 1rem; width: 100%; float: left; background: #eee; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;}
+.conquer-detail .tab-ul .txt{border:0}
+.conquer-detail .tab-ul .lists{border-bottom: 1px solid #eee; padding-bottom: 1rem;}
+.conquer-detail .tab-ul .title span{float:right}
+.conquer-detail .heightbox{padding:1rem}
+.conquer-detail .heightbox .an{}
+.c-content{display:none}
+.c-content #content{width: 90%; float: left; height: 12rem; margin: 80px 0 0 5%; background: #fff; border: 1px solid #ccc; border-radius: 10px; font-size: 0.7rem; padding: 0.5rem; color: #666;}
+.c-content .note{position: inherit; float: left; width: 100%; display: block; background: none; margin-top: 0;}
+.listbox{position: fixed; top: 55px; background: #eee; padding: 1rem 0; width: 90%; left: 5%; font-size: 0.7rem; color: #999; /* height: 300px; */ overflow: scroll; display:none; bottom: 55px; z-index:100}.listbox span{float: left; width: 100%; border-bottom: 1px solid #ccc; line-height: 2rem; padding-left: 5%;}
+.pic-box{position: relative; background: #f5f5f5; float: left; height: 7rem; z-index: 1; width: 100%;}
+.pic-box1{width: 100%; background: #f5f5f5; position: absolute; left: 0; top: 0; height: 100%;}
+.picbox{width: 6rem; height: 6rem; border: 1px solid #ccc; text-align: center; background: #ccc; line-height: 6rem; position: absolute; left: 0; top: 0;}
+.picbox i{font-size: 1.5rem;}
+.review .pro_list .aui-card-list{height:6rem}
+.review .aui-card-list .aui-col-xs-6{height: auto; padding: 0.5rem; background: #eee;    min-height: 5rem;}
+.review .r-start .aui-col-xs-1{width:20%}
+.rev-detail{}
+.rev-detail .m_list_g{padding: 0.75rem;}
+.rev-detail .m_list_g .name{float: left; margin-right: 0.5rem; line-height: 2rem;}
+.rev-detail .m_list_g .name img{border-radius: 50%; width: 2rem; margin-right: 0.2rem; float: left;}
+.review-box .tab-ul .lists .right-txt{margin-left:0; margin-bottom:0.3rem; font-size: 0.65rem; color: #666;}
+.review-box .r-start{width: 100%; float: left;}
+.member .aui-chat .inv .L{float:left; width:40%; background: #465681; color: #fff; height:45px; line-height:45px}
+.member .aui-chat .inv .R{float:right; width:40%; background: #465681; color: #fff; height:45px; line-height:45px}
+.dotask-box .tab .act{color:#fff}
+.loginbnt{width: 90%; margin-left: 5%;}
+.zj{padding: 0 5%; margin-bottom: 2rem;}
+.user .aui-col-xs-6 .aui-grid-label{text-align: left;margin-left: 1rem;font-size: 1rem;}
+.user .aui-col-xs-6 span{font-size: 1.5rem; line-height: 4rem;}
+.user .aui-col-xs-3 .aui-grid-label{}
+#mem_list .note{display: block; float: none; position: initial; background: #5c76bb; margin: 0; border-radius: 0; color: #fff;}
+.jfbox{width: 70%; float: left; margin: 0 15%; margin-bottom:55px}
+.jfbox .zjf{width: 12rem;height: 12rem;border-radius: 50%;border: 1rem solid #687699;background: #475681;color: #fff;line-height: 12rem;text-align: center;position: relative;margin: 0 auto;}
+.jfbox .zjf .z1{position: absolute;top: -2rem;left: 0;right: 0;}
+.jfbox .zjf .z2{font-size: 2rem;}
+.jfbox .zlist{float: left; width: 100%; line-height: 3rem;}
+.jfbox .zlist span{float: right; font-size: 1.2rem;}
+.menu{position: fixed; top: 0; right: 0; z-index: 9999; background: #61646b; width: 70%; height: 100%; padding-top:2rem; display:none; overflow:scroll}
+.menu .aui-list{background:none;}
+.menu .aui-list-item .aui-list-item-label-icon{color:#fff}
+.menu .aui-list-item{padding:0.3rem 1rem; color:#fff}
+.menu .menutop{float: left; width: 100%; padding: 0 1rem; color: #fff;}
+.menu .menutop .pic{width: 3rem; float: left; margin-right: 1rem;}
+.menu .menutop .pic img{border-radius: 50%;}
+.menu .menutop .name{float: left; padding-top: 0.5rem;}
+.menu .an{width: 70%; border-radius: 10px; height: 2rem; line-height: 2rem; text-align: center; margin: 0 auto; margin-top: 1rem;}
+#new{display:none}
+.addnew{position: fixed; bottom: 0; width: 80% !important; left: 10%;}
+#group_list .aui-col-xs-4{width: 30%; height: 2rem; margin: 1rem 1rem 0 0; float: right;}
+#group_list .aui-col-xs-4 .add{margin-right: 2rem; float: left; width: 50%;}
+.fenbu{padding: 0 1rem;}
+.fenbu .LE{}
+.fenbu .LE img{margin: 0 auto;}
+.fenbu .LE span{font-size: 1rem; margin: 0.5rem 0 1rem 0; display: block;}
+.fenbu .R{}
+.fenbu .R img{margin: 0 auto;}
+.fenbu .R span{font-size: 1rem; margin: 0.5rem 0 1rem 0; display: block;}
+.fenbu .xmlist{font-size: 0.8rem !important; float: left; margin: 1rem 0.3rem 0 0;}
+.fenbu .xmlist .bg5, .fenbu .xmlist .bg6, .fenbu .xmlist .bg7, .fenbu .xmlist .bg8, .fenbu .xmlist .bg9{width: 0.5rem; height: 0.5rem; float: left; margin: 0.3rem 0.2rem 0 0;}
+.fenbu2{padding: 0 1rem;}
+.fenbu2 .title{padding-left: 0.5rem; float: left; width: 100%; border-left: 3px solid #465681; line-height: 1rem; margin: 0.5rem 0 1rem 0;}
+.fenbu2 .fenbu2box{float: left; width: 100%;}
+.fenbu2 .fenbu2box ul{width: 100%; border-top: 1px solid #ccc;}
+.fenbu2 .fenbu2box ul li{float: left; width: 96%; line-height: 2.5rem; border-bottom: 1px solid #ccc; padding: 0 2%;}
+.fenbu2 .fenbu2box ul li .aui-col-xs-1{}
+.fenbu2 .LE, .fenbu2 .R{width: 48%; background: #fff; border: 1px solid #ccc; border-top: 1px solid #eee;}
+.userinfo{padding: 0 1rem;}
+.userinfo .touxiang{width: 100%; float: left; margin-bottom:1rem}
+.userinfo .touxiang .name{float: left; line-height: 3rem; color: #465681; font-size: 1.2rem;}
+.userinfo .touxiang img{width: 3rem; border-radius: 50%; float: left; margin-right: 1rem;}
+.userinfo .touxiang .an{float: right; padding: 0.5rem 1rem; border-radius: 10px; margin-top: 0.5rem;}
+.userinfo ul{color: #465681;}
+.userinfo ul li{float: left; width: 100%; padding: 0.5rem 0;}
+.userinfo ul li span{float: left; width: 4.5rem;}
+.userinfo ul li .inpread{float: left; width: 60%; height: 1.2rem;color: #465681;}
+.member_lists{float: left; width: 100%; background: #fff; padding-bottom: 1rem;}
+.member_lists li{padding: 0 1.5rem;}
+.member_lists li .name{float: left; line-height: 2rem;width:83%;}
+.member_lists li img{width: 10%; border-radius: 50%; float: left; margin-right:2%; margin-top:0.4rem}
+.inv_lists{float: left; width: 100%;}
+.inv_lists li{float: left; width: 90%; margin: 0.6rem 5% 0.1rem 5%; background: #fff; box-shadow: 2px 3px 1px 1px #dad9d9; padding: 0.4rem;}
+.inv_lists li .lis{float: left; width: 100%; line-height: 1.5rem;}
+.inv_lists li .lis .aui-col-xs-1{}
+.inv_lists li .lis .name{}
+.inv_lists li .name_n{float: left; text-align: center; width: 100%;}
+.inv_lists li .name_n .n1{font-weight: bold; float: left; width: 100%;}
+.inv_lists li .name_n .n2{background: #00a0e9; color: #fff; width: 100%; float: left; margin: 0.2em 0 0.5rem 0;}
+.about{}
+.about img{width: 80%; float: left; margin: 2rem 10%;}
+.about ul{float: left; width: 90%; margin: 0 5%;}
+.about ul li{float: left; width: 100%; background: #fff; line-height: 2.8rem; margin: 0 0 1rem 0; padding-left: 1rem; border-radius: 5px; box-shadow: 1px 1px #ccc;}
+.dotask .aui-list-item .dotask_review .aui-list-item-media{width: 4rem;display:block; padding-top:0; padding-bottom:0}
+.df .contents{padding: 2rem 0;width: 100%;float: left;text-align: center;}
+.df .contents .aui-col-xs-1{float: left; width: 20%;}
+.df .contents .aui-col-xs-1 i{font-size:1rem}
+.df .contents .an{width: 80%; margin: 2rem 0 0 0;}
+.rev-detail .sbox{margin-bottom:1rem}
+.resend{width: 100%; float: left;}
+.resend .sh{height: 1rem; width: 100%; float: left; background: #f2f6ff; border-top: 2px solid #eee;}
+.resend .title{/* height: 1rem; */ line-height: 1rem; width: 100%; float: left; background: #eee; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 0.5rem 0 0.5rem 1rem;}
+.resend .title:after{content: ""; position: absolute; left: 0.5rem; height: 1rem; width: 0.2rem; background: #465681;}
+.fg{border-left: 4px solid #465681; height: 1rem; padding: 0 0.25rem !important; margin: 0 0.65rem;}
+.m_list_g:after{}
+.resend .titles{line-height: 2.5rem; width: 90%; border-bottom: 1px solid #ccc; margin: 0 5%;}
+.dz .an{width: 30% !important;}
+.dz .zan{font-size: 1rem; float: left; margin-top: 0.2rem;}
+.dz .zan i{font-size: 1rem;}
+.fq{float: right; background: #465681; color: #fff; width: 20%; text-align: center; border-radius: 5px;}
+.fq i{color: #fff;}
+.rbox{padding-left: 0.2rem; box-shadow: 1px 1px 2px 1px #ccc; margin: 0.5rem 0 1rem 0;}
+.share{
+    position: fixed;
+    z-index: 9999;
+    background: #fff;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    padding: 1rem; display:none
+    }
+.share .jiathis_style_32x32{ float:left}
+.share .jiathis_style_32x32 a{float:left;width:25%;text-align: center;padding: 1rem 10%;}
+.r-start i, .from-main .start i{ color:#aaa}
